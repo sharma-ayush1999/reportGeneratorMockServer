@@ -163,11 +163,10 @@
       "isDraft": false
     }
   ],
- "ok":[
+ "ok":
        {
          "status": "200 OK"
        },
-  ],
  "notok":{
     "invalidData": {
         "userCampaignHash": [
