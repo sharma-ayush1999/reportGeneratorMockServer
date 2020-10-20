@@ -163,18 +163,22 @@
       "isDraft": false
     }
   ],
- "ok":{
-        "status": "200 OK"
-      },
- "notok":{
+ "ok":[
+       {
+         "status": "200 OK"
+       },
+  ],
+ "notok":[
+          {
            "invalidData": {
                "userCampaignHash": [
-            "BWIOHBODBHOSBNSOIOVDHNOSDN",
-            "WROUHVBOSUHBFSOUHNBOFSVNDA"
-        ],
-           }
+                 "BWIOHBODBHOSBNSOIOVDHNOSDN",
+                 "WROUHVBOSUHBFSOUHNBOFSVNDA"
+               ],
         "error_description": "You either don't have access to these USER Campaign Identifiers or some of the IDs doesn't exist in the system"
-    },
+    }
+          }
+  ],
   "profile": {
     "name": "typicode"
   }
